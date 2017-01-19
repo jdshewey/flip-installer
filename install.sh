@@ -82,7 +82,7 @@ Please write it down, then press any key to continue."
 	puppet module install jdshewey-modman
 	puppet module install puppetlabs-firewall
 	cd /etc/puppet/environments/production/modules/
-	git clone https://github.com/BitBrew/puppet-ipa.git ipa
+	git clone https://github.com/jdshewey/puppet-ipa.git ipa
 	cd ipa
 	echo "---
 profile::freeipa::public_dns: $DOMAIN
